@@ -11,6 +11,6 @@ passengers.each do |suite, passenger|
   if suite == "a" && passenger.start_with?("A")
     winner = passenger
   end
+end
   winner
-  end
 end
